@@ -25,6 +25,7 @@ body {
   border-radius: 25px;
   margin-left: 22.5px;
 }
+/* All products style */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -59,6 +60,7 @@ body {
   width: 150px;
   height: 150px;
 }
+/* cart table area style */
 .cart {
   width: 320px;
   padding: 10px;
@@ -74,6 +76,7 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* responsive area */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
@@ -81,7 +84,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
